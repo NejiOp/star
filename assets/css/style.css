@@ -450,8 +450,7 @@ footer .container{
     display: none;
   }
 
-
-  @media screen and (min-width: 320px) and (max-width: 380px){
+  @media screen and (max-width: 320px) {
 
     .hr{
         display: none;
@@ -469,7 +468,7 @@ footer .container{
     }
 
     .menu{
-        margin-left: 160px;
+        margin-left: 110px;
         width: 50px;
         height: 50px;
        padding:  15px 10px 24px 14px;
@@ -492,11 +491,9 @@ footer .container{
       }
       
       .header {
-        background-image: url(../images/banner.jpeg);
-        color: #FFD574CC;
-        height: 85vh;
+        height: 80vh;
         background-repeat: no-repeat;
-        background-size: 420px 540px;
+        background-size: 360px 490px;
     }
     
       .header-content{
@@ -509,7 +506,7 @@ footer .container{
       
 .header h1 {
     font-family: GothamSSm;
-font-size: 25px;
+font-size: 20px;
 font-weight: 500;
 line-height: 50px;
 }
@@ -574,7 +571,7 @@ line-height: 50px;
 }
 
 .vision-mission .working{
-    width: 330px;
+    width: 275px;
 }
 
 .vision-mission .working p{
@@ -587,7 +584,7 @@ line-height: 50px;
 
 
 .working-man{
-width: 355px;
+width: 320px;
 height: 250px;
 }
 
@@ -597,7 +594,7 @@ height: 250px;
 }
 
 .box{
-  margin-left: 40px;
+  margin-left: 15px;
 }
 
 
@@ -609,6 +606,8 @@ height: 250px;
 
 /* starefi */
 
+
+
 .starefi1{
     flex-wrap: wrap-reverse;
     margin: 10px;
@@ -618,10 +617,8 @@ height: 250px;
 .starefi1 p{
     margin: 20px 10px;   
     text-align: center;
-    width: 330px;
+    width: 278px;
 }
-
-
 
 .starefi2{
     flex-wrap: wrap;
@@ -632,13 +629,15 @@ height: 250px;
 .starefi2 p{
     margin: 20px 10px;   
     text-align: center;
-    width: 330px;
+    width: 278px;
 }
 
 .starfi-img{
-    width: 352px;
+    width: 300px;
 height: 250px;
 }
+
+
 
 
 
@@ -653,6 +652,7 @@ height: 250px;
 
 .footer p{
     margin: 0;
+    font-size: 15px;
 }
 .group-80{
     display: none;
@@ -670,8 +670,7 @@ height: 250px;
     height: 30px;
     box-sizing: border-box;
     color: #fff; /* Optional: Text color if needed */
-    font-size: 12px; /* Optional: Adjust font size if needed */
-  
+    font-size: 12px; /* Optional: Adjust font size if needed */  
     font-weight: bold; /* Optional: Make text bold if needed */
   }
 
@@ -681,12 +680,12 @@ height: 250px;
     height: 15px;
   }
 
+
 }
 
 
 
-
-@media screen and (min-width: 381px) and (max-width: 426px){
+  @media screen and (min-width: 321px) and (max-width: 380px){
 
     .hr{
         display: none;
@@ -861,6 +860,235 @@ height: 250px;
 .starefi2{
     flex-wrap: wrap;
     margin: 15px;
+    
+}
+
+.starefi2 p{
+    margin: 20px 10px;   
+    text-align: center;
+    width: 330px;
+}
+
+.starfi-img{
+    width: 352px;
+height: 250px;
+}
+
+
+
+/* footer */
+
+.footer .container{
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+
+
+.footer p{
+    margin: 0;
+}
+.group-80{
+    display: none;
+}
+
+
+
+.group-81 {
+    background: #F99F1C;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 9px 10px;
+    width: 40px;
+    height: 30px;
+    box-sizing: border-box;
+    color: #fff; /* Optional: Text color if needed */
+    font-size: 12px; /* Optional: Adjust font size if needed */  
+    font-weight: bold; /* Optional: Make text bold if needed */
+  }
+
+
+.vector-66 {
+    width: 20px;
+    height: 15px;
+  }
+
+}
+
+
+@media screen and (min-width: 381px) and (max-width: 426px){
+
+    .hr{
+        display: none;
+    }
+
+
+    .nav .group21{
+        margin: 0;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+
+    .group19{
+        width: 100px;
+    }
+
+    .menu{
+        margin-left: 180px;
+        width: 50px;
+        height: 50px;
+       padding:  15px 10px 24px 14px;
+    }
+
+    .vector-8 {
+        margin: 0 0px 6px 10px;
+        width: 30px;
+        height: 2.6px;
+      }
+       .vector-9 {
+        margin: 0 0 6px 10px;
+        width: 30px;
+        height: 2.6px;
+      }
+       .vector-10 {
+        margin: 0 0px;
+        width: 18.9px;
+        height: 2.6px;
+      }
+      
+      .header {
+        height: 85vh;
+        background-size: 440px 540px;
+    }
+    
+      .header-content{
+        width: 250px;
+    height: 242px;
+    padding-top: 100px;
+    padding-left: 15px;
+    }
+    
+      
+.header h1 {
+    font-family: GothamSSm;
+font-size: 25px;
+font-weight: 500;
+line-height: 50px;
+}
+
+
+
+/* company */
+
+.company-intro .container{
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.company-intro {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.company-image {
+    width: 100%;
+    max-width: 600px;
+    margin-right: 0px;
+    display: block;
+}
+
+.company-info {
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+
+.btn-read-more {
+    margin-left: 70px;
+}
+
+/*quality*/
+
+.quality-standards h2 {
+    font-size: 2em;
+   
+}
+
+.standard-item img {
+    width: 60px;
+    margin-bottom: 0px;
+}
+/* experience */
+
+.stats {
+    
+    flex-direction: column;
+   
+}
+
+/* vision mission  */
+
+.vision-mission .container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.vision-mission .working{
+    width: 95.5%;
+}
+
+.vision-mission .working p{
+    background-color: #F99F1C;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+
+.working-man{
+width: 425px;
+height: 250px;
+}
+
+
+.vision-box{
+    margin-top: 0;
+}
+
+.box{
+  margin-left: 70px;
+}
+
+
+.experience-content h2 {
+    font-size: 2em;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+/* starefi */
+
+.starefi1{
+    flex-wrap: wrap-reverse;
+    margin-left: 40px;
+}
+
+
+.starefi1 p{
+    margin: 20px 10px;   
+    text-align: center;
+    width: 330px;
+}
+
+
+
+.starefi2{
+    flex-wrap: wrap;
+    margin-left: 40px;
     
 }
 
